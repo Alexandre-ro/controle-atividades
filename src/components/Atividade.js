@@ -38,8 +38,7 @@ export default function Atividade(props) {
         <div className="card-body">
           <div className="d-flex justify-content-between ">
             <h5 className="card-title">
-              <span className="badge bg-secondary me-1">{props.ativ.id}</span>-
-              {props.ativ.titulo}
+              <span className="badge bg-secondary me-1">{props.ativ.id}</span> - {props.ativ.titulo}              
             </h5>
 
             <h6>Prioridade: {prioridadeLabel(props.ativ.prioridade)}</h6>

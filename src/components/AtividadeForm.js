@@ -77,7 +77,7 @@ export default function AtividadeForm(props) {
             value={atividade.prioridade}
             required
           >
-            <option value="0" selected>               
+            <option value="0">               
               Selecione
             </option>
             <option value="1">Baixa</option>
